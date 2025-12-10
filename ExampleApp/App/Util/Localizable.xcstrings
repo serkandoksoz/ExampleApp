@@ -1,6 +1,55 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%lld°" : {
+
+    },
+    "%lldmm" : {
+
+    },
+    "7 Günlük Tahmin" : {
+
+    },
+    "Detaylar" : {
+
+    },
+    "Dünyanın herhangi bir yerinden hava durumu bilgilerini alın" : {
+
+    },
+    "Farklı bir arama terimi deneyin" : {
+
+    },
+    "Hava durumu bilgilerini görmek için konum izni verin" : {
+
+    },
+    "Hava durumu yükleniyor..." : {
+
+    },
+    "Hissedilen %lld°" : {
+
+    },
+    "Kapat" : {
+
+    },
+    "Konum İzni Gerekli" : {
+
+    },
+    "Konum İzni Ver" : {
+
+    },
+    "Konum Sorunu" : {
+
+    },
+    "Lat: %.2f, Lon: %.2f" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Lat: %1$.2f, Lon: %2$.2f"
+          }
+        }
+      }
+    },
     "Ok" : {
       "localizations" : {
         "tr" : {
@@ -10,6 +59,24 @@
           }
         }
       }
+    },
+    "Saatlik Tahmin" : {
+
+    },
+    "Şehir Ara" : {
+
+    },
+    "Şehir ara (örn: Ankara, İstanbul, London)" : {
+
+    },
+    "Şehir bulunamadı" : {
+
+    },
+    "Şehirler aranıyor..." : {
+
+    },
+    "Varsayılan Konum Kullan (İstanbul)" : {
+
     },
     "Version" : {
       "extractionState" : "stale",

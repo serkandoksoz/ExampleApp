@@ -17,14 +17,14 @@ struct SplashView: View {
             Color.white
                 .ignoresSafeArea()
 
-            Image(systemName: "pencil")
+            Image("ExampleAppIcon")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 240, height: 128)
                 .padding(.bottom, 28)
         }
         .onAppear {
-           
+            WeatherScreen().navigate()
         }
     }
 }

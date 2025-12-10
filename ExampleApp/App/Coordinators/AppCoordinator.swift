@@ -22,6 +22,7 @@ final class AppCoordinator: NSObject, UITabBarControllerDelegate {
         
         super.init()
         SplashScreen.handle(with: handle(route:))
+        WeatherScreen.handle(with: handle(route:))
     }
     
     func start() {
@@ -31,6 +32,10 @@ final class AppCoordinator: NSObject, UITabBarControllerDelegate {
                 SplashScreen().navigate()
             }
         }
+    }
+    
+    private func handle(route: WeatherScreen) {
+        navigator.push(WeatherView())
     }
 
     private func handle(route: SplashScreen) {

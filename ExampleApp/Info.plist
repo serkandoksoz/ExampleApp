@@ -19,5 +19,7 @@
 			</array>
 		</dict>
 	</dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Bu uygulama hava durumu bilgilerini göstermek için konumunuza ihtiyaç duyar.</string>
 </dict>
 </plist>
