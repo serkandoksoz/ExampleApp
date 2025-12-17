@@ -22,7 +22,7 @@ struct SplashView: View {
                 .scaledToFit()
                 .frame(width: 240, height: 128)
                 .padding(.bottom, 28)
-            Text("Testtt")
+            Text("Test3")
         }
         .onAppear {
             WeatherScreen().navigate()
