@@ -19,7 +19,7 @@ jobs:
       - name: 🔧 Setup Xcode
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '17.6'  # Projenizin gerektirdiği Xcode versiyonu
+          xcode-version: 'latest-stable'  # Projenizin gerektirdiği Xcode versiyonu
       
       # 3. Ruby kurulumu (Fastlane için - opsiyonel)
       - name: 💎 Setup Ruby
