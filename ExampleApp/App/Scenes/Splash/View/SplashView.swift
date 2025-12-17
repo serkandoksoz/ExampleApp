@@ -4,7 +4,7 @@
 //
 //  Created by Serkan Doksöz on 2.01.2025.
 //
-
+//Dev created
 import SwiftUI
 
 struct SplashScreen: Route {}
