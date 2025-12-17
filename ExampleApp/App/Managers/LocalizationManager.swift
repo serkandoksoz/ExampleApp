@@ -20,7 +20,7 @@ final class LocalizationManager {
     private let fileName = "localizations.json"
     private var localizations: [String: [String: String]] = [:] // [Language: [Key: Value]]
     private let logger = AppLogger(category: "LocalizationManager")
-    private let currentLanguage: String = Locale.current.languageCode ?? "en"
+    private let currentLanguage: String = Locale.current.language.languageCode?.identifier ?? "en"
 
     private init() {
         Task {
