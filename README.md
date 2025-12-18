@@ -53,23 +53,6 @@ Follow the [Semantic Versioning](https://semver.org/) convention:
 - `1.1.0`: Added new feature (e.g., offline caching)
 - `1.1.1`: Fixed bug in offline caching
 
-### Automated Versioning with Fastlane
-
-Add to your `Fastfile`:
-```ruby
-lane :bump_version do
-  increment_version_number(
-    bump_type: "patch" # Can be major, minor, or patch
-  )
-  increment_build_number
-end
-```
-
-Run with:
-```bash
-fastlane bump_version
-```
-
 ## 🌿 Git Branching Strategy
 
 ### Gitflow (Recommended)
@@ -81,24 +64,6 @@ Ideal for structured release management:
 - `feature/branch-name`: Individual feature development
 - `release/branch-name`: Release preparation
 - `hotfix/branch-name`: Production issue fixes
-
-**Workflow:**
-```bash
-# Create feature branch
-git checkout -b feature/your-feature-name develop
-
-# Merge feature back to develop
-git checkout develop
-git merge feature/your-feature-name
-
-# Create release branch
-git checkout -b release/v1.1.0 develop
-
-# Merge to main and tag
-git checkout main
-git merge release/v1.1.0
-git tag -a v1.1.0 -m "Release version 1.1.0"
-```
 
 ### Trunk-Based Development
 Alternative for simpler projects:
